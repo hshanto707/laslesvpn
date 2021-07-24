@@ -11,7 +11,11 @@ a {
   text-decoration: none !important;
 }
 
-
+.details {
+  font-size: 16px;
+  color: #4F5665;
+  line-height: 30px;
+}
 
 /* NAVBAR */
 
@@ -26,6 +30,10 @@ a {
   margin-right: 30px;
 }
 
+.login:hover {
+  color: #0B132A;
+}
+
 .signup {
   font-weight: 500;
   color: #F53855;
@@ -34,8 +42,41 @@ a {
   border-radius: 50px;
 }
 
+.signup:hover {
+  color: #F53855;
+}
 
-@media only screen and (max-width:576px) {
+
+
+/* HERO SECTION */
+
+.hero {
+  margin-top: 100px;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  color: white;
+  background-color: #F53855;
+  padding: 18px 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px gray;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:576px) and (max-width:768px) {
   .login {
     display: block;
     /* padding-bottom: 20px; */
@@ -46,19 +87,19 @@ a {
     padding: 0;
     margin-top: 15px;
     border: 0;
+  }
+
+  .hero-title {
+    font-size: 25px;
+    line-height: normal;
   }
 }
 
-@media only screen and (max-width:768px) {
-  .login {
-    display: block;
-    /* padding-bottom: 20px; */
+@media only screen and (max-width:576px) {
+  .hero {
+    margin-top: 50px;
+    text-align: center;
   }
 
-  .signup {
-    display: block;
-    padding: 0;
-    margin-top: 15px;
-    border: 0;
-  }
+  
 }
