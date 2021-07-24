@@ -12,9 +12,23 @@ a {
 }
 
 .details {
+  margin: 0;
   font-size: 16px;
   color: #4F5665;
   line-height: 30px;
+}
+
+.cta-btn {
+  display: inline-block;
+  color: white;
+  background-color: #F53855;
+  padding: 18px 50px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px lightgray;
+}
+
+.cta-btn:hover {
+  color: white;
 }
 
 /* NAVBAR */
@@ -61,16 +75,22 @@ a {
   margin-bottom: 20px;
 }
 
-.cta-btn {
-  display: inline-block;
-  color: white;
-  background-color: #F53855;
-  padding: 18px 50px;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px gray;
+
+/* BANNER SECTION */
+
+.banner {
+  margin: 100px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px lightgray;
 }
 
 
+.number {
+  font-weight: 700;
+  font-size: 25px;
+  color: #0B132A;
+  margin: 0;
+}
 
 
 
