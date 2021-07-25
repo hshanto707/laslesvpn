@@ -4,6 +4,8 @@
 
 * {
   font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -29,6 +31,11 @@ a {
 
 .cta-btn:hover {
   color: white;
+}
+
+.title {
+  font-size: 35px;
+  color: #0B132A;
 }
 
 /* NAVBAR */
@@ -81,6 +88,7 @@ a {
 .banner {
   margin: 100px;
   padding: 30px;
+  box-shadow: 10px 10px 10px lightgray;
 }
 
 
@@ -90,6 +98,21 @@ a {
   color: #0B132A;
   margin: 0;
 }
+
+/* FEATURE SECTION */
+
+.point::before {
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  font-weight: 500;
+  color: green;
+  margin-right: 10px;
+}
+
+
+
+
 
 
 
@@ -120,5 +143,11 @@ a {
     text-align: center;
   }
 
-  
+  .title {
+    text-align: center;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
 }
