@@ -142,7 +142,7 @@ a {
   font-family: "Font Awesome 5 Free";
   display: inline-block;
   font-weight: 500;
-  color: green;
+  color: red;
   margin-right: 10px;
 }
 
@@ -163,7 +163,16 @@ a {
   background-color: #F53838;
 }
 
+/* ! NETWORK SECTION */
 
+.sponsors-header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.sponsor {
+  margin: 100px 0;
+}
 
 
 
